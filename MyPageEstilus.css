@@ -1,0 +1,44 @@
+body {
+    background: #fff;
+    background-image: url(../Images/Background-image-degrade.jpg);
+    background-size: auto 100vh;                  /*Define o tamanho do background-image da pagina */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;                                /*define a altura da tela - vh */  
+}
+
+/*Menu*/
+.menu {
+    background-color: #fff;
+
+}
+
+.menu ul {
+    display: flex;                          /*Força os links do menu a se apresentarem em horizontal*/
+    justify-content: space-around;          /*Adiciona espaço entre os links do menu*/
+}
+
+.menu li {
+    list-style:none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: rgb(90, 156, 241);
+    text-decoration: underline; 
+    
+}
+
+.site-subtitle,                             /*A vírgula (,) depois do nome da classe, indica que esta recebe a mesma configuração da classe posterior a ela*/
+.site-title {
+    color: whitesmoke;
+    text-align: center;    
+}
+
+.site-subtitle {
+    font-style: italic;
+}
